@@ -1,5 +1,5 @@
 # Touhou-Balatro-texture-pack
-A texture pack themed touhou project of Balatro.
+A texture pack of Balatro,retexture with the theme of the Touhou Project.
 
 Smod and Malverk is needed.
 
