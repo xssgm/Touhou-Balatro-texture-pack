@@ -3,6 +3,7 @@ return {
     misc = {
         dictionary = {
             b_spectral_cards="符卡",
+            b_planet_cards="角色牌",
             b_stat_planets="角色牌",
             b_stat_spectrals="符卡",
             b_stat_tarots="地点牌",

@@ -3,10 +3,11 @@ return {
     misc = {
         dictionary = {
             b_spectral_cards="Spell Cards",
+            b_planet_cards="Characters",
             b_stat_planets="Characters",
             b_stat_spectrals="Spell Cards",
             b_stat_tarots="Locations",
-            b_tarot_cards="Location Cards",
+            b_tarot_cards="Locations",
             k_arcana_pack="Location Pack",
             k_celestial_pack="Character Pack",
             k_dwarf_planet="Character",
@@ -197,6 +198,62 @@ return {
                     "Create a {C:purple}Location{} card",
                     "if hand is played",
                     "with {C:money}$#1#{} or less",
+                },
+            },
+            j_ring_master={
+                name="Showman",
+                text={
+                    "{C:attention}Joker{}, {C:tarot}Location{}, {C:planet}Character{},",
+                    "and {C:spectral}Spell cards{} may",
+                    "appear multiple times",
+                },
+            },
+            j_seance={
+                name="Séance",
+                text={
+                    "If {C:attention}poker hand{} is a",
+                    "{C:attention}#1#{}, create a",
+                    "random {C:spectral}Spell cards{} ",
+                    "{C:inactive}(Must have room)",
+                },
+            },
+            j_sixth_sense={
+                name="Sixth Sense",
+                text={
+                    "If {C:attention}first hand{} of round is",
+                    "a single {C:attention}6{}, destroy it and",
+                    "create a {C:spectral}Spell card{} ",
+                    "{C:inactive}(Must have room)",
+                },
+            },
+            j_astronomer={
+                name="Astronomer",
+                text={
+                    "All {C:planet}Character{} cards and",
+                    "{C:planet}Character Packs{} in",
+                    "the shop are {C:attention}free",
+                },
+                unlock={
+                    "Discover every",
+                    "{E:1,C:planet}Character{} card",
+                },
+            },
+            j_constellation={
+                name="Constellation",
+                text={
+                    "This Joker gains",
+                    "{X:mult,C:white} X#1# {} Mult every time",
+                    "a {C:planet}Character{} card is used",
+                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                },
+            },
+            j_satellite={
+                name="Satellite",
+                text={
+                    "Earn {C:money}$#1#{} at end of",
+                    "round per unique {C:planet}Character",
+                    "card used this run",
+                    "{C:inactive}(Currently {C:money}$#2#{C:inactive})",
                 },
             },
 
