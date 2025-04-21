@@ -31,15 +31,61 @@ return {
         alt_texture = {
             alt_tex_th_jokers = {
 		name = "Jokers",
-            j_glass={
-                name="Perfect Frozen",
-                text={
-                    "This Joker gains {X:mult,C:white} X#1# {} Mult",
-                    "for every {C:attention}Frozen Card",
-                    "that is destroyed",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
-                },
+            j_8_ball={
+                name="Underground Idol",
             },
+            j_abstract={
+                name="Yin-Yang Orb",
+            },
+            j_acrobat={
+                name="Portal",
+            },
+            j_ancient={
+                name="Torii",
+            },
+            j_arrowhead={
+                name="Sakura",
+            },
+            j_astronomer={
+                name="Perfect Memento in Strict Sense",
+            },
+            j_banner={
+                name="Gohei",
+            },
+            j_baron={
+                name="The Yakumo family",
+            },
+            j_baseball={
+                name="Wallop",
+            },
+            j_blackboard={
+                name="Pitch-Black",
+            },
+            j_bloodstone={
+                name="Rose",
+            },
+            j_blue_joker={
+                name="Point",
+            },
+            j_blueprint={
+                name="Jailbreak King",
+            },
+            j_bootstraps={
+                name="Offertory Box",
+            },
+            j_brainstorm={
+                name="Strange Creators of Outer World - ALERT",
+            },
+            j_bull={
+                name="Enlarge the Danmaku!",
+            },
+            j_burglar={
+                name="Thief!",
+            },
+            j_burnt={
+                name="Arsonist",
+            },
+
             j_business={
                 name="Business Card",
                 text={
@@ -57,25 +103,371 @@ return {
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
 	    },
-            j_faceless={
-                name="Faceless Joker",
+            j_campfire={
+                name="Gluttony",
+            },
+           j_card_sharp={
+                name="Tanuki Trickery",
+            },
+            j_castle={
+                name="The Magic Library",
+            },
+            j_cavendish={
+                name="MASTER SPARK",
+            },
+            j_ceremonial={
+                name="Killing Intent",
+            },
+            j_certificate={
+                name="Substitute Jizo",
+            },
+            j_chaos={
+                name="Shanghai Doll",
+            },
+            j_chicot={
+                name="Chicot",
+            },
+            j_clever={
+                name="Two Pair Power",
+            },
+            j_cloud_9={
+                name="⑨",
+            },
+            j_crafty={
+                name="Flush Point",
+            },
+            j_crazy={
+                name="Straight Power",
+            },
+            j_credit_card={
+                name="Kourindou 20-yen Voucher",
+            },
+            j_delayed_grat={
+                name="Pocket Watch",
+            },
+            j_devious={
+                name="Straight Point",
+            },
+            j_diet_cola={
+                name="Beer",
+            },
+            j_dna={
+                name="Hyakki Yakou",
+            },
+            j_drivers_license={
+                name="Driver's License",
+            },
+            j_droll={
+                name="Flush Power",
+            },
+            j_drunkard={
+                name="Ibuki Gourd",
+            },
+            j_duo={
+                name="The Gardener",
+            },
+            j_dusk={
+                name="Dream World",
+            },
+            j_egg={
+                name="Bishamonten's Pagoda",
+            },
+            j_erosion={
+                name="Ravenous Maw",
+            },
+            j_even_steven={
+                name="Nishida Satono",
+            },
+            j_family={
+                name="The Maid",
+            },
+            j_fibonacci={
+                name="Piling Rocks",
+            },
+            j_flash={
+                name="EXploIT the Weakness",
+            },
+            j_flower_pot={
+                name="Season's Cycle",
+            },
+            j_fortune_teller={
+                name="Great Hakurei Barrier",
+            },
+            j_four_fingers={
+                name="Prismriver Ensemble",
+            },
+            j_gift={
+                name="Dowsing Rods",
+            },
+            j_glass={
+                name="Perfect Freeeeeeze!",
                 text={
-                    "Earn {C:money}$#1#{} if {C:attention}#2#{} or",
-                    "more {C:attention}sage cards{}",
-                    "are discarded",
-                    "at the same time",
+                    "This Joker gains {X:mult,C:white} X#1# {} Mult",
+                    "for every {C:attention}Frozen Card",
+                    "that is destroyed",
+                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                },
+                unlock={
+                    "Have at least {E:1,C:attention}#1#",
+                    "{E:1,C:attention}#2#s{} in",
+                    "your deck",
                 },
             },
+            j_gluttenous_joker={
+                name="Summer",
+            },
+            j_golden={
+                name="Money",
+            },
+            j_greedy_joker={
+                name="Autumn",
+            },
+            j_green_joker={
+                name="Daiyousei",
+            },
+            j_gros_michel={
+                name="Mini-Hakkero",
+            },
+            j_hack={
+                name="Touhou M-1 Grand Prix",
+            },
+            j_half={
+                name="Half-Ripped Wanted Poster",
+            },
+            j_hanging_chad={
+                name="Hanging Chad",
+            },
+            j_hiker={
+                name="Sweet™ Sleep Pillow",
+            },
+            j_hit_the_road={
+                name="Here's ... Junko!",
+            },
+            j_hologram={
+                name="Postcard:Lunar Capital",
+            },
+            j_ice_cream={
+                name="Shaved Ice",
+            },
+            j_idol={
+                name="The Idol",
+            },
+            j_invisible={
+                name="Ghost Party",
+            },
+            j_joker={
+                name="Power",
+            },
+            j_jolly={
+                name="Pair Power",
+            },
+            j_juggler={
+                name="Hoshiguma Dish",
+            },
+            j_loyalty_card={
+                name="Library Card",
+            },
+            j_luchador={
+                name="Remembrance Image",
+            },
+            j_lucky_cat={
+                name="Lucky Cat",
+            },
+            j_lusty_joker={
+                name="Spring",
+            },
+            j_mad={
+                name="Two Pair Power",
+            },
+            j_madness={
+                name="Madness",
+            },
+            j_mail={
+                name="Checkpoint",
+            },
+            j_marble={
+                name="FumoFumo Koishi",
+            },
+            j_matador={
+                name="Final Stage",
+            },
+            j_merry_andy={
+                name="Game Over",
+            },
             j_midas_mask={
-                name="Midas Mask",
+                name="Mask of Hope...?",
                 text={
                     "All played {C:attention}sage{} cards",
                     "become {C:attention}Gold{} cards",
                     "when scored",
                 },
             },
+            j_mime={
+                name="Silence",
+	    },
+            j_misprint={
+                name="Undefined Fantastic Object",
+                text={
+                    "",
+                },
+            },
+            j_mr_bones={
+                name="Shinigami-chan is on Break",
+            },
+            j_mystic_summit={
+                name="Wonderful Heaven",
+            },
+            j_obelisk={
+                name="Abandoned Radio Tower",
+            },
+            j_odd_todd={
+                name="Teireida Mai",
+            },
+            j_onyx_agate={
+                name="Bamboo",
+            },
+            j_oops={
+                name="Lucky Four-Leaf Clover",
+            },
+            j_order={
+                name="The Human Magician",
+            },
+            j_perkeo={
+                name="Perkeo",
+            },
+            j_popcorn={
+                name="Grilled Lamprey",
+            },
+            j_raised_fist={
+                name="Raised Paw",
+            },
+            j_ramen={
+                name="Tonkotsu Ramen",
+            },
+            j_red_card={
+                name="McRoll",
+            },
+            j_reserved_parking={
+                name="Sacred Sakura",
+            },
+            j_riff_raff={
+                name="Great Fairy Wars",
+            },
+            j_rocket={
+                name="Rocket",
+            },
+            j_rough_gem={
+                name="Acer japonicum",
+            },
+            j_runner={
+                name="Koakuma",
+            },
+            j_scholar={
+                name="Rainbow Puppeteer",
+            },
+            j_seeing_double={
+                name="Full Moon",
+            },
+            j_selzer={
+                name="Green Tea",
+            },
+            j_shoot_the_moon={
+                name="Saigetsu",
+            },
+            j_shortcut={
+                name="the Streets of a Former Hell",
+            },
+            j_sly={
+                name="Pair Point",
+            },
+            j_smeared={
+                name="Dazzling Sunlight",
+            },
+            j_space={
+                name="Miracle Mallet",
+            },
+            j_splash={
+                name="Graze",
+            },
+            j_square={
+                name="Game currency",
+            },
+            j_steel_joker={
+                name="Factory Access Card",
+            },
+            j_stencil={
+                name="Interlude",
+            },
+            j_stone={
+                name="Stone Carving of Koishi",
+            },
+            j_stuntman={
+                name="Overwork",
+            },
+            j_supernova={
+                name="Who's the Main Character?",
+            },
+            j_swashbuckler={
+                name="The Pirate",
+            },
+            j_throwback={
+                name="Illusionary Dominance",
+            },
+            j_ticket={
+                name="Ropeway Ticket",
+            },
+            j_to_the_moon={
+                name="Reach for the Moon",
+            },
+            j_todo_list={
+                name="Hifuu Club Activity Record",
+            },
+            j_trading={
+                name="Trading Card",
+            },
+            j_tribe={
+                name="The Miko",
+            },
+            j_triboulet={
+                name="Triboulet",
+            },
+            j_trio={
+                name="The Wind Priestess",
+            },
+            j_troubadour={
+                name="Dark Noh",
+            },
+            j_trousers={
+                name="Weird T-shirt",
+            },
+            j_turtle_bean={
+                name="Deep Fried Tofu",
+            },
+            j_vagabond={
+                name="Vagabond",
+            },
+            j_vampire={
+                name="Vampire",
+            },
+            j_walkie_talkie={
+                name="404 Not Found",
+            },
+            j_wee={
+                name="Small Power",
+            },
+            j_wily={
+                name="Four of a Kind Point",
+            },
+            j_wrathful_joker={
+                name="Winter",
+            },
+            j_yorick={
+                name="Yorick",
+            },
+            j_zany={
+            },
             j_pareidolia={
-                name="Pareidolia",
+                name="The Gaps",
                 text={
                     "All cards are",
                     "considered",
@@ -91,7 +483,7 @@ return {
                 },
             },
             j_reserved_parking={
-                name="Reserved Parking",
+                name="Sacred Sakura",
                 text={
                     "Each {C:attention}sage{} card",
                     "held in hand has",
@@ -110,7 +502,7 @@ return {
                 },
             },
             j_scary_face={
-                name="Scary Face",
+                name="Meeting of the Sages",
                 text={
                     "Played {C:attention}sage{} cards",
                     "give {C:chips}+#1#{} Chips",
@@ -118,7 +510,7 @@ return {
                 },
             },
             j_smiley={
-                name="Smiley Face",
+                name="Birdwatching",
                 text={
                     "Played {C:attention}sage{} cards",
                     "give {C:mult}+#1#{} Mult",
@@ -126,7 +518,7 @@ return {
                 },
             },
             j_sock_and_buskin={
-                name="Sock and Buskin",
+                name="Black and White",
                 text={
                     "Retrigger all",
                     "played {C:attention}sage{} cards",
@@ -138,7 +530,7 @@ return {
                 },
             },
             j_8_ball={
-                name="8 Ball",
+                name="Underground Idol",
                 text={
                     "{C:green}#1# in #2#{} chance for each",
                     "played {C:attention}8{} to create a",
@@ -147,7 +539,7 @@ return {
                 },
             },
             j_cartomancer={
-                name="Cartomancer",
+                name="Bunbunmaru Newspaper",
                 text={
                     "Create a {C:tarot}Location{} card",
                     "when {C:attention}Blind{} is selected",
@@ -159,7 +551,7 @@ return {
                 },
             },
             j_fortune_teller={
-                name="Fortune Teller",
+                name="Great Hakurei Barrier",
                 text={
                     "{C:red}+#1#{} Mult per {C:purple}Location{}",
                     "card used this run",
@@ -167,7 +559,7 @@ return {
                 },
             },
             j_hallucination={
-                name="Hallucination",
+                name="Kakashi Spirit News",
                 text={
                     "{C:green}#1# in #2#{} chance to create",
                     "a {C:tarot}Location{} card when any",
@@ -176,7 +568,7 @@ return {
                 },
             },
             j_ring_master={
-                name="Showman",
+                name="Black Market",
                 text={
                     "{C:attention}Joker{}, {C:tarot}Location{}, {C:planet}Character{},",
                     "and {C:spectral}Spell cards{} may",
@@ -184,7 +576,7 @@ return {
                 },
             },
             j_superposition={
-                name="Superposition",
+                name="Nuclear-Powered Furnace",
                 text={
                     "Create a {C:tarot}Location{} card if",
                     "poker hand contains an",
@@ -200,14 +592,6 @@ return {
                     "with {C:money}$#1#{} or less",
                 },
             },
-            j_ring_master={
-                name="Showman",
-                text={
-                    "{C:attention}Joker{}, {C:tarot}Location{}, {C:planet}Character{},",
-                    "and {C:spectral}Spell cards{} may",
-                    "appear multiple times",
-                },
-            },
             j_seance={
                 name="Séance",
                 text={
@@ -218,7 +602,7 @@ return {
                 },
             },
             j_sixth_sense={
-                name="Sixth Sense",
+                name="Lunatic Eyes",
                 text={
                     "If {C:attention}first hand{} of round is",
                     "a single {C:attention}6{}, destroy it and",
@@ -227,7 +611,7 @@ return {
                 },
             },
             j_astronomer={
-                name="Astronomer",
+                name="Perfect Memento in Strict Sense",
                 text={
                     "All {C:planet}Character{} cards and",
                     "{C:planet}Character Packs{} in",
@@ -239,7 +623,7 @@ return {
                 },
             },
             j_constellation={
-                name="Constellation",
+                name="Danmaku Fireworks Festival",
                 text={
                     "This Joker gains",
                     "{X:mult,C:white} X#1# {} Mult every time",
@@ -248,7 +632,7 @@ return {
                 },
             },
             j_satellite={
-                name="Satellite",
+                name="Feast",
                 text={
                     "Earn {C:money}$#1#{} at end of",
                     "round per unique {C:planet}Character",
